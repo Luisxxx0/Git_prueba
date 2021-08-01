@@ -11,7 +11,7 @@ public class Principal{  //formaHilo1: implemtens Runnable
     
     public static void main(String[] args){
         new HiloSimple("Jamaica").start();
-        new HiloSimple("Fiji").start();
+        new HiloSimple("Medellin").start();
         //(new Thread(new Principal())).start(); //primera forma de creación de un hilo
         //(new Principal()).start(); //segunda forma hilo
         /*Agenda agenda = new Agenda();
